@@ -17,7 +17,7 @@ class student_result_system{
             total = total + marks;
         }
 
-        double percentage = total / 5.0;
+        float percentage = total / 5;
 
         System.out.println("\nStudent Name: " + name);
         System.out.println("Total Marks: " + total);
